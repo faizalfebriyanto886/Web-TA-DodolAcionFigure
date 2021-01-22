@@ -52,15 +52,6 @@
     <br /><br />
 
     <span style="float:right;font-size: 20px; padding: 10px;">
-        <b>Filter Products</b>
-        <?php
-        echo form_open('Shop/catFilter');
-        ?>
-        <select class=' add_to_cart_button' name="cat" id="">
-            <option value="mobile">mobile</option>
-            <option value="tablet">tablet</option>
-        </select>
-        <button class="add_to_cart_button">Submit</button>
         <?php
         echo form_close();
         ?>
