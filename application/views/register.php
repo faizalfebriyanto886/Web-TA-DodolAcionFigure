@@ -11,11 +11,6 @@
     <title>Register || Dodol Action Figure</title>
     <link rel="shortcut icon" href="<?php echo base_url() ?>assets/img/DodolLogo.png" />
 
-    <!-- Google Fonts -->
-    <!-- <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,700,600' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Raleway:400,100' rel='stylesheet' type='text/css'> -->
-
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -47,9 +42,6 @@
             <?php
             echo form_open('Register', 'role="form"');
             ?>
-            <!-- 
-            <h2>Please Sign Up <small>It's free and always will be.</small></h2>
-            <hr class="colorgraph"> -->
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-6">
                     <div class="form-group">
@@ -86,10 +78,8 @@
                     </div>
                 </div>
             </div>
-            <!-- <hr class="colorgraph"> -->
             <div class="row">
                 <div class="col-md-12"><input type="submit" value="Register" class="btn btn-primary btn-block btn-lg" tabindex="7"></div>
-                <!-- <div class="col-xs-12 col-md-6"><a href="#" class="btn btn-success btn-block btn-lg">Sign In</a></div> -->
             </div>
             <?php
             echo form_close();
