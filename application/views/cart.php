@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Dodol Action Figure</title>
-    <link rel="shortcut icon" href="<?php echo base_url() ?>assets/img/logo.png" />
+    <link rel="shortcut icon" href="<?php echo base_url() ?>assets/img/DodolLogo.png" />
 
     <!-- Google Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,700,600' rel='stylesheet' type='text/css'>
@@ -90,7 +90,7 @@
                                                     </td>
 
                                                     <td class="product-price">
-                                                        <span class="amount">Rs.<?php echo $row->product_price ?></span>
+                                                        <span class="amount">Rp.<?php echo $row->product_price ?></span>
                                                     </td>
 
                                                     <td class="product-quantity">
@@ -103,7 +103,7 @@
                                                         </div>
 
                                                     <td class="product-subtotal">
-                                                        <span id="total" class="amount">Rs.<?php echo $pro_total ?></span>
+                                                        <span id="total" class="amount">Rp.<?php echo $pro_total ?></span>
                                                     </td>
                                                 </tr>
 
@@ -128,7 +128,7 @@
                                                 </a>
                                             </td>
                                             <td><?php if (isset($pro_totals)) {
-                                                    echo 'Rs.' . $pro_totals . '/-';
+                                                    echo 'Rp.' . $pro_totals . '/-';
                                                 } ?></td>
 
                                         </tr>

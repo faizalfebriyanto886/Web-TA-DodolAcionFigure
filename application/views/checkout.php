@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Dodol Action Figure</title>
-    <link rel="shortcut icon" href="<?php echo base_url() ?>assets/img/logo.png" />
+    <link rel="shortcut icon" href="<?php echo base_url() ?>assets/img/DodolLogo.png" />
 
     <!-- Google Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,700,600' rel='stylesheet' type='text/css'>
@@ -67,7 +67,7 @@
                             <td class="product-name">
                                 Cart Total </td>
                             <td class="product-total">
-                                <span class="amount">Rs.<?php echo $total ?>/-</span>
+                                <span class="amount">Rp.<?php echo $total ?>/-</span>
                             </td>
                         </tr>
                     </tbody>
@@ -76,14 +76,14 @@
                         <tr class="shipping">
                             <th>Shipping and Handling</th>
                             <td>
-                                Rs. 1000/-
+                                Rp. 1000/-
                             </td>
                         </tr>
 
 
                         <tr class="order-total">
                             <th>Order Total</th>
-                            <td><strong><span class="amount">Rs.<?php echo $netTotal = $total + 1000 ?>/-</span></strong> </td>
+                            <td><strong><span class="amount">Rp.<?php echo $netTotal = $total + 1000 ?>/-</span></strong> </td>
                         </tr>
 
                     </tfoot>

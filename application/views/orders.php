@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Dodol Action Figure</title>
-    <link rel="shortcut icon" href="<?php echo base_url() ?>assets/img/logo.png" />
+    <link rel="shortcut icon" href="<?php echo base_url() ?>assets/img/DodolLogo.png" />
 
     <!-- Google Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,700,600' rel='stylesheet' type='text/css'>

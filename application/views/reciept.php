@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Dodol Action Figure</title>
-    <link rel="shortcut icon" href="<?php echo base_url() ?>assets/img/logo.png" />
+    <link rel="shortcut icon" href="<?php echo base_url() ?>assets/img/DodolLogo.png" />
 
     <style type="text/css" media="print">
         @page {
@@ -62,7 +62,7 @@
                 <div>
                     <div>
                         <center>
-                            <h1><span style="color: gray;">Mobile</span> <span style="color:#1abc9c;">River</span></h1>
+                            <h1><span style="color: gray;">Mobile</span> <span style="color:#1fc3bc;">River</span></h1>
                             <br />
                             <span> <b>Customer Name :</b> <?php echo $_SESSION['dis_name'] ?> </span>
                         </center>

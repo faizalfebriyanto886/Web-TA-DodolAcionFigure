@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Dodol Action Figure</title>
-    <link rel="shortcut icon" href="<?php echo base_url() ?>assets/img/logo.png" />
+    <link rel="shortcut icon" href="<?php echo base_url() ?>assets/img/DodolLogo.png" />
 
     <!-- Google Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,700,600' rel='stylesheet' type='text/css'>
@@ -32,11 +32,11 @@
     ?>
 
     <div class="product-big-title-area">
-        <div class="container">
+        <div class="container-fuild">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-14">
                     <div class="product-bit-title text-center">
-                        <h2>Shop</h2>
+                        <img style="width: 100%; height: auto;" src="<?php echo base_url('assets/img/productMark3.jpg'); ?>" />
                     </div>
                 </div>
             </div>
@@ -72,26 +72,16 @@
                                         <div class="product-inner">
                                             <h2 class="product-name"><?php echo $row->product_name ?></h2>
                                             <div class="product-inner-price">
-                                                <ins>Rs.<?php echo $row->product_price ?></ins>
+                                                <ins>Rp.<?php echo $row->product_price ?></ins>
                                             </div>
-
-
                                             <a href="<?php echo base_url() ?>index.php/Cart?id=<?php echo $row->p_id ?>"><button class="add_to_cart_button" type="submit">Add to cart</button></a>
-                                            <br /><br />
-
-                                            <div role="tabpanel">
-                                                <ul class="product-tab" role="tablist">
-                                                    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Description</a></li>
-
-                                                </ul>
-                                                <div class="tab-content">
-                                                    <div role="tabpanel" class="tab-pane fade in active" id="home">
-                                                        <h2>Product Description</h2>
-                                                        <p>
-                                                            <?php echo $row->product_des ?>
-                                                        </p>
-                                                    </div>
-
+                                            <br /> <br />
+                                            <div class="tab-content">
+                                                <div role="tabpanel" class="tab-pane fade in active" id="home">
+                                                    <h2>Product Description</h2>
+                                                    <p>
+                                                        <?php echo $row->product_des ?>
+                                                    </p>
                                                 </div>
                                             </div>
 
@@ -127,7 +117,7 @@
                                             <h2><a href=""><?php echo $row->product_name ?></a></h2>
 
                                             <div class="product-carousel-price">
-                                                <ins>Rs.<?php echo $row->product_price ?></ins>
+                                                <ins>Rp.<?php echo $row->product_price ?></ins>
                                             </div>
                                         </div>
                                 <?php
