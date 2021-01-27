@@ -23,7 +23,7 @@ class Admin extends CI_Controller
         if (isset($_SESSION['email'])) {
             if ($_SESSION['status'] == 'admin') {
                 $config['upload_path'] = './uploads/';
-                $config['allowed_types'] = 'gif|jpg|png';
+                $config['allowed_types'] = 'gif|jpg|png|jpeg';
 
                 $this->load->library('upload', $config);
 
