@@ -6,13 +6,6 @@
         <div class="row">
             <div class="col-md-8">
                 <div class="user-menu">
-                    <!--<ul>
-                        <li><a href="<?php /*echo base_url() */ ?>Welcome/login"><i class="fa fa-user"></i> My Account</a></li>
-                        <li><a href="#"><i class="fa fa-heart"></i> Wishlist</a></li>
-                        <li><a href="<?php /*echo base_url() */ ?>Welcome/cart"><i class="fa fa-shopping-cart"></i> My Cart</a></li>
-                        <li><a href="<?php /*echo base_url() */ ?>Welcome/checkout"><i class="fa fa-user"></i> Checkout</a></li>
-
-                    </ul>-->
                 </div>
             </div>
         </div>
@@ -29,9 +22,6 @@
             </div>
 
             <div class="col-sm-6">
-                <!--<div class="shopping-item">
-                    <a href="cart.php">Cart - <span class="cart-amunt">$800</span> <i class="fa fa-shopping-cart"></i> <span class="product-count">5</span></a>
-                </div>-->
             </div>
         </div>
     </div>

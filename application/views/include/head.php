@@ -11,7 +11,6 @@
                         <?php
                         }
                         ?>
-                        <!--<li><a href="#"><i class="fa fa-heart"></i> Wishlist</a></li>-->
                         <?php
                         if (isset($_SESSION['email'])) {
                             if (!$_SESSION['email'] == '') {
@@ -36,17 +35,10 @@
             <div class="col-sm-6">
                 <div class="logo">
                     <h1>
-                        <!-- <a href="<?php echo base_url() ?>index.php/Welcome">Mobile<span> River</span></a> -->
                         <img src="<?php echo base_url('assets/img/logoMark2.png'); ?>" />
                     </h1>
                 </div>
             </div>
-
-            <!--            <div class="col-sm-6">
-                <div class="shopping-item">
-                    <a href="cart.php">Cart - <span class="cart-amunt">Rs.800</span> <i class="fa fa-shopping-cart"></i> <span class="product-count">5</span></a>
-                </div>
-            </div>-->
         </div>
     </div>
 </div> <!-- End site branding area -->
