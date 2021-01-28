@@ -49,8 +49,8 @@
     <p><b>CARA PEMBELIAN</b></p>
     <ol>
         <li> Silahkan melakukan <a href="<?php echo base_url() ?>index.php/Welcome/login"><i class="fa fa-user"></i> Login atau Register</a> jika anda sudah mendaftarkan akun anda. </li>
-        <li> Pilih<a href="<?php echo base_url() ?>index.php/Welcome/single"> produk</a> yang anda inginkan, lalu klik add to cart. </li>
-        <li> Produk yang anda pilih akan masuk ke <a href="<?php echo base_url() ?>index.php/Cart/viewCart"><i class="fa fa-shopping-cart"></i> troli</a> pembelian, silahkan konfirmasi jumlah yang akan dibeli lalu klik tombol purchase.</li>
+        <li> Pilih<a href="<?php echo base_url() ?>index.php/Welcome/shop"> produk</a> yang anda inginkan, lalu klik add to cart. </li>
+        <li> Produk yang anda pilih akan masuk ke troli pembelian, silahkan konfirmasi jumlah yang akan dibeli lalu klik tombol purchase.</li>
         <li> Produk yang sudah dibeli akan masuk di bagian Pembelian. </li>
         <li> Transaksi akan di proses oleh admin. </li>
     </ol>

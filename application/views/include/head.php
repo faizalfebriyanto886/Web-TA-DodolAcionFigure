@@ -58,22 +58,8 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li class=""><a href="<?php echo base_url() ?>index.php/Welcome">Home</a></li>
-                    <li><a href="<?php echo base_url() ?>index.php/Welcome/shop">Shop page</a></li>
+                    <li><a href="<?php echo base_url() ?>index.php/Welcome/shop">Shop now</a></li>
                 </ul>
-                <!--<li><a href="single-product.php">Single product</a></li>
-                <li><a href="cart.php">Cart</a></li>
-                <li><a href="checkout.php">Checkout</a></li>
-                <li><a href="#">Category</a></li>
-                <li><a href="#">Others</a></li>
-                <li><a href="#">Contact</a></li>-->
-                <!--<li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                    <ul class="dropdown-menu " style="list-style-type: none;">
-                        <li><a class="" href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                    </ul>
-                </li>-->
                 <?php
                 if (isset($_SESSION['email'])) {
                 ?>
